@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux'
-import { Provider } frome 'react-redux'// 作成したStoreを全Componentにくばるためのもの
+import { Provider } from 'react-redux'// 作成したStoreを全Componentにくばるためのもの
 
 import './index.css';
 import reducer from './reducers'

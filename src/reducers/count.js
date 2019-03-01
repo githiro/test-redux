@@ -12,7 +12,7 @@ export default (state = initialState, action) => {
 			return { value: state.value + 1 }
 		case DECREMENT: 
 			return { value: state.value - 1 }
-		default
+		default: 
 			return state//初期値は0を返す
 	}
 }
